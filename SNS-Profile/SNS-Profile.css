@@ -1,0 +1,50 @@
+.white-box {
+  background-color: white;
+  box-shadow: 0.5px 0.5px 2px 1px #eee;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+i {
+  color: #6fbaf8;
+}
+
+.local {
+  color: #6fbaf8;
+}
+
+.btn {
+  background-color: #6fbaf8;
+  color: white;
+  border: none;
+}
+
+.border-right {
+  border-right: 1px solid #E8E8E8;
+}
+
+.pills {
+  border: 1px solid #CCCCCC;
+  border-radius: 100px;
+  padding: 5px 10px 5px 10px;
+  margin-left: 5px;
+}
+
+.mbtoo {
+  padding-bottom: 200px;
+}
+
+progress {
+  appearance: none;
+  background: white;
+}
+
+progress::-webkit-progress-bar {
+  background-color: rgb(223, 220, 220);
+  border-radius: 15px;
+}
+
+progress::-webkit-progress-value {
+  background: linear-gradient(to top, skyblue, rgb(15, 137, 185));
+  border-radius: 20px;
+}
