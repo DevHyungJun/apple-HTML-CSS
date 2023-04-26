@@ -1,0 +1,119 @@
+.container {
+  margin: auto; /* 컨테이너 가운데 정렬 */
+  width: 80%; /* 너비는 화면의 80% */
+  display: flex;
+}
+
+.container>div {
+  width: 25%; /* div의 너비는 부모 태그의 25% */
+  text-align: center; /* 텍스트 가운데 정렬 */
+}
+
+@media screen and (max-width:1200px) {
+  .container {
+    flex-wrap: wrap;
+  }
+  .container>div {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width:768px){
+  .container {
+    flex-direction: column;
+  }
+  .container>div {
+    width: 100%;
+  }
+}
+
+.nav-container {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.nav-container>div {
+  font-size: 25px;
+  margin-right: 15px;
+  width: 33%;
+  text-align: center;
+  font-weight: bold;
+  color: hotpink;
+}
+
+.icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: rgb(251, 32, 141);
+  color: white;
+  font-size: 30px;
+  padding-top: 15px;
+  box-sizing: border-box;
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.icon i {
+  width: 50px;
+}
+
+h4 {
+  font-size: 25px;
+}
+
+.shop-background {
+  background-color: #eee;
+  padding: 20px;
+}
+
+.shop-container {
+  display: flex;
+  width: 80%;
+  margin: auto;
+}
+
+.shop-item {
+  width: 33%;
+  padding: 15px;
+}
+
+.shop-item img {
+  width: 100%;
+  display: block;
+}
+
+.overlay-wrap {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  margin-top: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  transition: all 0.3s;
+}
+
+.overlay-wrap:hover .overlay {
+  margin-top: 50%;
+
+}
+
+.shop-price {
+  display: block;
+  margin-left: 40px;
+  padding-top: 40px;
+  font-size: 30px;
+  color: white;
+}
+
+.shop-popular {
+  font-size: 18px;
+  margin-left: 40px;
+  color: white;
+}
