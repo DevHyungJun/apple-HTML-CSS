@@ -1,0 +1,115 @@
+.container {
+  width: 800px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+
+.leftBox {
+  width: 75%;
+  float: left;
+}
+
+.leftTop {
+  height: 50px;
+  font-size: 15px;
+}
+
+.leftBottom {
+  height: 120px;
+}
+
+.rightBox {
+  height: 170px;
+  width: 25%;
+  float: left;
+}
+
+.profile {
+  width: 6%;
+  height: 70%;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+
+.pName {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 5px;
+  margin-bottom: 0;
+  font-weight: 500;
+}
+
+.pTime {
+  display: inline-block;
+  vertical-align: top;
+  color: rgb(203, 201, 201);
+  font-weight: 100;
+  font-size: 13px;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 27px;
+}
+
+.h2 {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 16px;
+  font-weight: bold;
+  margin-left: 10px;
+  margin-left: 20px;
+  margin-top: 0;
+}
+
+.p {
+  display: inline-block;
+  font-size: 13px;
+  margin: 0 20px 0 20px;
+  color: rgb(181, 180, 180);
+}
+
+.bim {
+  width: 80%;
+  height: 90%;
+}
+
+.line {
+  width: 100%;
+  border: 1px solid rgb(242, 240, 240);
+  clear: both;
+}
+
+.navbar li{
+  display: inline-block;
+  width: 60px;
+  text-align: center;
+  background: #eee;
+  padding: 8px;
+  border-radius: 30px;
+}
+
+.navbar {
+  text-align: center;
+}
+
+.navbar a {
+  font-size: 16px;
+  text-decoration: none;
+}
+
+a:link { /*링크 방문 전*/
+  color: black;
+}
+
+a:visited { /*링크를 방문한 이후*/
+  color: black;
+}
+
+a:hover { /*마우스를 올려놓을 때*/
+  color: lightgrey;
+}
+
+a:active { /*클릭하는 순간*/
+  color: darkgray;
+}
