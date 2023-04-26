@@ -1,0 +1,241 @@
+body {
+  margin: 0;
+  background-color: aqua;
+}
+
+div {
+  box-sizing: border-box;
+}
+
+.main-background {
+  width: 100%;
+  height: 500px;
+  background-image: url(https://codingapple.com/wp-content/uploads/2019/06/shoes.jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  margin-top: 100px;
+}
+
+.main-title {
+  color: rgb(224, 255, 146);
+  font-size: 40px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+}
+
+.content {
+  color: white;
+  font-size: large;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 170px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+  text-align: center;
+}
+
+.main-button {
+  width: 200px;
+  height: 50px;
+  font-size: 25px;
+  background: green;
+  color: yellow;
+  border: none;
+  border-radius: 7px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 120px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+}
+
+button:active {
+  box-shadow: 5px 5px 5px rgb(0, 0, 0);
+}
+
+button:hover {
+  background: rgb(1, 118, 1);
+}
+
+.addition-content {
+  width: 80%;
+  max-width: 400px;
+  background: rgb(234, 231, 231);
+  position: relative;
+  margin: auto;
+  text-align: center;
+  top: 400px;
+  padding: 10px;
+}
+
+.addition-title {
+  font-weight: 700;
+}
+
+.addition-p {
+  color: rgb(78, 78, 78);
+}
+
+.form-container {
+  width: 600px;
+  height: 700px;
+  background-color: white;
+  position: relative;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.form-title {
+  font-size: 20px;
+  position: absolute;
+  top: 50px;
+  margin-left: 50px;
+  margin-bottom: 0px;
+}
+
+p {
+  font-size: 18px;
+}
+
+.footer-form>p {
+  font-size: 13px;
+}
+
+input[type='email'] {
+  font-size: 20px;
+  padding: 5px;
+  width: 400px;
+  margin-top: 10px;
+}
+
+input[type='text'] {
+  font-size: 20px;
+  padding: 5px;
+  width: 180px;
+}
+
+textarea {
+  font-size: 20px;
+  width: 400px;
+  padding: 5px;
+  border: 1px solid rgb(185, 181, 181);
+  border-radius: 2px;
+}
+
+input[type='submit'] {
+  font-size: 20px;
+  padding: 6px;
+  width: 130px;
+  background-color: yellowgreen;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  position: absolute;
+  bottom: 40px;
+  left: 320px;
+}
+
+.email-box {
+  position: absolute;
+  top: 130px;
+  margin-left: 50px;
+}
+
+.Firstname-form {
+  position: absolute;
+  top: 230px;
+  margin-left: 50px;
+}
+
+.Lastname-form {
+  position: absolute;
+  top: 230px;
+  left: 200px;
+  margin-left: 70px;
+}
+
+.Message-form {
+  position: absolute;
+  bottom: 80px;
+  margin-left: 50px;
+}
+
+.footerP {
+  display: inline-block;
+  position: absolute;
+  bottom: 60px;
+  left: 65px;
+  font-size: 15px;
+}
+
+input[type='checkbox'] {
+  display: inline-block;
+  position: absolute;
+  bottom: 60px;
+  left: 45px
+}
+
+.email-box>p {
+  margin-bottom: 0;
+}
+
+.Firstname-form>p {
+  margin-bottom: 0;
+}
+
+.Lastname-form>p {
+  margin-bottom: 1px;
+}
+
+input {
+  border-radius: 4px;
+  border: 1px solid rgb(185, 181, 181);
+  box-sizing: border-box;
+}
+
+h2 {
+  margin-bottom: 0;
+}
+
+input[type='submit']:hover {
+  /*마우스를 올려놓을 때*/
+  color: rgb(132, 183, 31);
+}
+
+.nav-container {
+  display: flex;
+  background-color: #FE7677;
+  color: white;
+  padding: 20px;
+  align-items: center;
+}
+
+.nav-logo {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.mid-size {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.nav-services {
+  margin-left: 15px;
+}
+
+@media screen and(max-width: 1200px) {
+  .content {
+    font-size: 20px;
+  }
+}
