@@ -1,0 +1,108 @@
+@use 'reset';
+
+$green : #DEEFD8;
+$blue : #D8ECF6;
+$yellow : #FBF7E3;
+
+$sp-green : #71A184;
+$sp-blue : #8AABBC;
+$sp-yellow : #ADA591;
+
+
+ul {
+  width: 30%;
+  font-size: 30px;
+
+  li {
+    list-style: none;
+    border: 1px solid lightblue;
+    padding: 20px;
+  }
+
+  li:hover {
+    background-color: #007BFF;
+    border: 1px solid #007BFF;
+    color: white;
+  }
+
+  span {
+    margin-left: 30px;
+  }
+
+}
+
+.contain {
+  margin-left: 10px;
+}
+
+.contain div {
+  width: 60%;
+  padding: 10px;
+  vertical-align: middle;
+  margin-bottom: 25px;
+  border-radius: 5px;
+}
+
+@mixin background-color($b) {
+  background-color: $b;
+}
+
+@mixin sp-color($sp) {
+  color: $sp;
+}
+
+%bold {
+  font-weight: 900;
+}
+
+.h-blue {
+  @include sp-color($sp-blue);
+  @extend %bold;
+}
+
+.h-green {
+  @include sp-color($sp-green);
+  @extend %bold;
+}
+
+.h-yellow {
+  @include sp-color($sp-yellow);
+  @extend %bold;
+}
+
+.green {
+  @include background-color($green)
+}
+
+.blue {
+  @include background-color($blue)
+}
+
+.yellow {
+  @include background-color($yellow)
+}
+
+%mt {
+  margin-top: 16px;
+}
+
+.sp-blue {
+  @include sp-color($sp-blue);
+  @extend %mt;
+}
+
+.sp-green {
+  @include sp-color($sp-green);
+  @extend %mt;
+}
+
+.sp-yellow {
+  @include sp-color($sp-yellow);
+  @extend %mt;
+}
+
+.row div {
+  padding: 20px;
+  background-color: #E6E2EB;
+  border: 1px solid #CBC3D6;
+}

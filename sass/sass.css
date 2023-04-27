@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+}
+
+div {
+  box-sizing: border-box;
+}
+
+ul {
+  width: 30%;
+  font-size: 30px;
+}
+ul li {
+  list-style: none;
+  border: 1px solid lightblue;
+  padding: 20px;
+}
+ul li:hover {
+  background-color: #007BFF;
+  border: 1px solid #007BFF;
+  color: white;
+}
+ul span {
+  margin-left: 30px;
+}
+
+.contain {
+  margin-left: 10px;
+}
+
+.contain div {
+  width: 60%;
+  padding: 10px;
+  vertical-align: middle;
+  margin-bottom: 25px;
+  border-radius: 5px;
+}
+
+.h-yellow, .h-green, .h-blue {
+  font-weight: 900;
+}
+
+.h-blue {
+  color: #8AABBC;
+}
+
+.h-green {
+  color: #71A184;
+}
+
+.h-yellow {
+  color: #ADA591;
+}
+
+.green {
+  background-color: #DEEFD8;
+}
+
+.blue {
+  background-color: #D8ECF6;
+}
+
+.yellow {
+  background-color: #FBF7E3;
+}
+
+.sp-yellow, .sp-green, .sp-blue {
+  margin-top: 16px;
+}
+
+.sp-blue {
+  color: #8AABBC;
+}
+
+.sp-green {
+  color: #71A184;
+}
+
+.sp-yellow {
+  color: #ADA591;
+}
+
+.row div {
+  padding: 20px;
+  background-color: #E6E2EB;
+  border: 1px solid #CBC3D6;
+}/*# sourceMappingURL=sass.css.map */
