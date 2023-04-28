@@ -1,0 +1,25 @@
+.grey {
+  background: #C3D2E9;
+  height: 2000px;
+  margin-top: 180px;
+}
+
+.img {
+  float: right;
+  width: 1000px;
+  position: sticky;
+  top: 100px
+}
+.text {
+  float: left;
+  width: 300px;
+  margin-left: 150px;
+  margin-top: 200px;
+  color: #162937;
+  font-weight: bold;
+}
+
+.text h2 {
+  font-size: 40px;
+  color: #24455c;
+}
