@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+}
+
+.box {
+  display: inline-block;
+  width: 100px;
+  padding: 20px;
+  background-color: #87CEEB;
+  font-size: 23px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 200px;
+  color: white;
+  border-radius: 7px;
+}
+
+.box:hover {
+  animation-name: boxmove;
+  animation-duration: 0.5s;
+}
+
+@keyframes boxmove {
+  0% {rotate: 0deg;}
+
+  25% {rotate: 5deg;}
+
+  50% {rotate: -10deg;}
+
+  75% {rotate: 5deg;}
+
+  90% {rotate: 0deg;}
+
+  100% {rotate: 0deg;}
+}
+
+.plus {
+  font-size: 100px;
+  margin-left: 49%;
+  display: inline-block;
+}
+
+.plus:hover {
+  animation-name: plusmove;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes plusmove {
+  0% {rotate: 0deg;}
+
+  25% {rotate: -20deg;}
+
+  100% {rotate: 50deg; scale: 1.5;}
+}
+
+.blk-nav {
+  width: 200px;
+  background: black;
+  color: white;
+  height: 100%;
+  padding: 25px;
+  position: fixed;
+  z-index: 5;
+  text-align: right;
+  transform: translateX(-150px);
+  transition: all 1s;
+}
+
+.blk-nav:hover p {
+  animation-name: slide;
+  animation-duration: 1s;
+}
+
+.blk-nav:hover {
+  transform: translateX(0);
+  text-align: center;
+}
+
+@keyframes slide {
+  0% {transform: translateX(-250px);}
+  50% {transform: translateX(20px);}
+  100% {transform: translateX(0px);}
+}
